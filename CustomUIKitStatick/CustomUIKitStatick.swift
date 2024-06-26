@@ -27,5 +27,7 @@ final class VioletDot: UIView {
         super.layoutSubviews()
         layer.cornerRadius = frame.height / 2
     }
+    
+    
 }
 

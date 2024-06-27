@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 
 /// Фиолетовый круг
-final class VioletDot: UIView {
+public class VioletDot: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -23,7 +23,7 @@ final class VioletDot: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         layer.cornerRadius = frame.height / 2
     }
